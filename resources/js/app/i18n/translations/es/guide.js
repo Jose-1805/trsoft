@@ -1,0 +1,66 @@
+export default {
+	steps:'Pasos',
+	note:'Nota',
+	general:{
+		item:'General',
+		title:'Guía general',
+		description:'En esta guía se encuentra una descripción general de las principales funcionalidades el sistema, las cuales pueden ser accedidas generalmente desde el menú lateral.',
+		description_performance:'En esta sección del sistema, se pueden visualizar todas las operaciones que el sistema a realizado en su nombre. La vista le mostrará la cantidad de operaciones realizadas, el porcentaje de acierto, el valor total de los rendimientos obtenidos y una tabla con información detallada de cada operación. Utilice la opción "demo" para ver resultados de las operaciones que no afectaron su cuenta real y/o cambie los filtros para obtener los resultados deseados.',
+		description_commission:'Esta vista le permite vizualizar todas las comisiones generadas hasta la fecha con las licencias que usted tiene activas. Esta sección también le permite ver y realizar el pago de las comisiones que fueron generadas por las licencias que ya expiraron.',
+		description_service:'Utilice esta sección para ver y configurar los servicios que el sistema tiene disponibles para usted, esta vista le muestra información detallada de cada servicio y también le permite realizar la compra de la licencia que usted desee.',
+		description_license:'En esta sección del sistema, puede econtrar todas las licencias que ha adquirido, aquí puede visualizar datos importantes de cada licencia (fecha de compra, fecha de activación, fecha de expiración ... etc). Esta seción también debe ser utilizada para realizar la activación de sus licencias después de haber procesado la compra.',
+		description_setting:'En la sección de configuración puede realizar tareas como el cambio de su contraseña de acceso al sistema y el registro de su cuenta de broker.',
+	},
+	buy_license:{
+		item:'Comprar licencias',
+		title:'Guía de compra de licencias',
+		description:'Para comprar la licencia de un servicio, siga los pasos que se listan en esta guía. Para garantizar que su pago se realiza correctamente, siga los pasos al pié de la letra.',
+		step_1:'Dirijase a la sección de servicios.',
+		step_2:'En "Servicios y licencias" ubique el servicio que le interesa y haga clic en el botón "Mostrar licencias".',
+		step_3:'Identifique la licencia que desea adquirir y haga clic sobre el botón de compra de la licencia (se añadirá el valor de las comisiones pendientes de pago, si existen).',
+		step_4:'Seleccione la opción de pago y diligencie la información que sea necesaria.',
+		step_5:'Finalice el pago de acuerdo a la opción seleccionada.',
+		step_6:'Verifique su compra en la sección de licencias.'
+	},
+	active_license:{
+		item:'Activar licencias',
+		title:'Guía de activación de licencias',
+		description:'Para realizar la activación de sus licencias, siga los pasos que se listan en esta guía.',
+		note:'El sistema le permite tener una única licencia activa por servicio, si tiene más de una licencia para el mismo servicio, debe esperar a que caduque la licencia activa antes de poder activar otra. Las licencias gratuitas y de uso indefinido que tenga asociadas permanecerán siempre activas, el sistema utilizará sus licencias pagas si existen, de lo contrario se utilizarán las licencias gratuitas.',
+		step_1:'Dirijase a la sección de licencias.',
+		step_2:'Identifique la licencia que desea activar.',
+		step_3:'Haga clic sobre el botón de activación de la licencia.',
+		step_4:'Confirme la activación de la licencia.',
+	},
+	start_copy_binary:{
+		item:'Iniciar Copy Binary',
+		title:'Guía de inicio con Copy Binary',
+	},
+	check_pay_commission:{
+		item:'Consultar y pagar comisiones',
+		title:'Guía de consuta y pago de comisiones',
+		description:'Para consultar y pagar sus comisiones, siga los pasos que se listan en esta guía. Para garantizar que su pago se realiza correctamente, siga los pasos al pié de la letra.',
+		note:'Las comisiones se generan automáticamente cuando las ganancias alcanzan o superan el nivel de comisión de la licencia o cuando la fecha de caducidad de la licencia se ha cumplio (el valor de la comisión depende del rendimiento alcanzado y la licencia que se encuentra activa), Una vez se genera una comisión, se debe realizar el pago de dicha comisión para seguir utilizando los servicios de TrSoft.',
+		step_1:'Dirijase a la sección de comisiones.',
+		step_2:'El sistema le mostrará las comisiones que se han generado y las comisiones calculadas hasta el momento por las licencias que tenga activas.',
+		step_3:'Identifique la comisión que desea pagar.',
+		step_4:'Haga clic sobre una de las opciones de pago disponibles en la comisión.',
+		step_5:'Diligencie la información necesaria.',
+		step_6:'Finalice el pago de acuerdo a la opción de pago seleccionada.',
+		another_way_to_pay:'Otra forma de pagar',
+		another_way_to_pay_msg:'Si planea adquirir una licencia después de pagar las comisiones, puede ir directamente a comprar la licencia y el valor de las comisiones pendientes de pago se añadirá al valor de la compra de su licencia.',
+	},
+	start_copy_binary:{
+		item:'Iniciar Copy Binary',
+		title:'Guía de inicio con Copy Binary',
+		description:'Copy Binary le permite ejecutar operaciones a partir de las decisiones de nuestros traders. Para utilizar este servicio asegurese de cumplir los siguientes requisitos.',
+		req_1:'Tener una licencia activa para el servicio (aplican licencias gratuitas)',
+		req_2:'Tener una cuenta activa en el broker <1>IqOption</1>.',
+		req_3:'Tener saldo disponible en su cuenta de IqOption, según cómo desee operar (cuenta real o de práctica).',
+
+		steps_text:'Si cumple con todos los requisitos enumerados anteriormente, siga los pasos que se listan a continuación para configurar e iniciar TrSoft - Copy Binary:',
+
+		step_1:'Configure el acceso a IqOption, en la sección de configuraciones puede registrar su acceso a la plataforma IqOption. Esto es necesario para que las operaciones realizadas por nuestros traders puedan ser copiadas en su cuenta.',
+		step_2:'Configure las opciones como lo desee (Tenga en cuenta las recomendaciones hechas por TrSoft).',
+	}
+}

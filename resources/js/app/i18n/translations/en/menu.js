@@ -1,0 +1,15 @@
+export default {
+	trading: 'TRADING',
+	performances: 'Performance',
+	commissions: 'Commissions',
+	services: 'Services',
+	licenses: 'Licenses',
+	system: 'SYSTEM',
+	settings: 'Settings',
+	communication: 'Communication',
+	guides: 'Guides',
+	what_is:'What is TrSoft?',
+	use_without_money:'Use without money',
+	how_work:'How to start?',
+	our_team:'Our team',
+}

@@ -1,0 +1,15 @@
+export default {
+	username_label: 'Username',
+	password_label: 'Password',
+	remember_label: 'Remember me',
+	login_error:'Incorrect username or password, verify your login details.',
+	register_msg: 'If you do not have a user account, <1>click here</1> to register.',
+	name_label: 'Full name',
+	identification_number_label: 'Identification number',
+	date_birth_label: 'Date of birth',
+	cell_phone_number_label: 'Cell phone number (Whatsapp)',
+	email_label: 'Email',
+	password_confirmation_label: 'Password confirmation',
+	login_msg: 'If you already have a user account, <1>click here</1> to access the system.',
+	t_c_msg: 'I confirm that I am 18 years or older and have read and accept the <1>TrSoft Terms and Conditions</1>, as well as the <1>Privacy Policy.</1>',
+}

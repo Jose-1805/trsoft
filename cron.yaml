@@ -1,0 +1,4 @@
+cron:
+- description: "Laravel scheduler Trsoft"
+  url: /scheduler
+  schedule: every 1 mins

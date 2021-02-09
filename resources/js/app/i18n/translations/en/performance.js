@@ -1,0 +1,20 @@
+export default {
+	title_demo:'My trades on the practice account',
+	title_real:'My trades on the real account',
+	active_label:'Active',
+	amount_label:'Amount',
+	profit_percentage_label:'Profit percentage',
+	profit_value_label:'Profit value',
+	expiration_time_label:'Expiration',
+	direction_label:'Direction',
+	is_demo_label:'Demo',
+	call:'Call',
+	put:'Put',
+	yes:'Yes',
+	no:'No',
+	success_rate:'Success rate',
+	operations:'Operations',
+	performance:'Performance',
+	start_date:'Start date',
+	end_date:'End date'
+}

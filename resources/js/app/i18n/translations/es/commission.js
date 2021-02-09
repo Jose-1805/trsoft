@@ -1,0 +1,31 @@
+export default {
+	title:'Comisiones',
+	upcoming_commissions:'Próximas comisiones',
+	empty:'No existen comisiones generadas en el sistema. Las comisiones se generan automáticamente cada vez que sus ganancias alcanzan un nivel o cuando vence una licencia.',
+	empty_upcoming:'No existen licencias activas para calcular los valores de próximas comisiones.',
+	license: 'Licencia',
+	commission: 'Comisión',
+	current_commission: 'Comisión actual',
+	current_performance: 'Rendimiento actual',
+	expiration_date: 'Fecha de expiración',
+	performance: 'Rendimiento',
+	msg_uncoming: 'El rendimiento y la comisión pueden cambiar con cada operación realizada, el resultado definitivo se obtiene cuando las ganancias llegan a un nivel o al expirar la licencía.',
+	commissions_not_generated: 'No se generan comisiones por esta licencia.',
+	commissions_paid: 'El pago de esta comisión se realizó en la siguiente fecha:',
+	msg_pay_commission: '¿Está seguro de realizar el pago de la comisión?',
+	cancel: 'No, cancelar',
+	pay: 'Si, pagar',
+	paying: 'Pagando',
+	init_payment: 'Iniciando pago',
+	successful_payment: 'Pago exitoso',
+	msg_successful_payment: 'El pago de la comisión fue procesado con éxito, para adquirir una licencia nueva <1>dirijase a servicios</1> y seleccione el servicio y la licencia que desee.',
+	payment_error: 'Error de pago',
+	process_payment_error:'Ocurrió un error procesando el pago de la comisión, si el sistema aún solicita el pago de la comisión y su dinero fue descontado de su cuenta, debe ponerse en contácto con nosotros.',
+	commissions_pending_payment:'Comisiones pendientes de pago',
+	commissions_pending_payment_msg:'Su cuenta presenta un saldo de <1>US $ {{balance}}</1> por comisiones pendientes de pago. Recuerde que al tener comisiones pendientes de pago no puede utilizar los servicios de <1>TrSoft</1>. Si actualmente no tiene una licencia activa puede <2>adquirir una nueva</2> y el valor de las comisiones pendientes de pago se adicionará al valor de la licencia, de lo contrario sólo puede realizar el pago desde la <3>sección de comisiones</3>.',
+	commissions_pending_payment_msg_2:'Se cobran <1>US $ {{value}}</1> adicionales por comisiones que aparecen pendientes de pago en el sistema.',
+	errors: {
+		invalid_data:'Los datos enviados presentan errores.'
+	},
+	performance_demo_msg:'En las licencias gratuitas el rendimiento se calcula con los resultados obtenidos en demo y real'
+}

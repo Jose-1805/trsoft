@@ -1,0 +1,11 @@
+@font-face {
+	font-family: "montserrat";
+	/*src: url("/fonts/Montserrat/Montserrat-Regular.ttf");*/
+	src: url("/static/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+	font-family: "lobster";
+	/*src: url("/fonts/Lobster/Lobster-Regular.ttf");*/
+	src: url("/static/fonts/Lobster/Lobster-Regular.ttf");
+}

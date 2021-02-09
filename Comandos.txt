@@ -1,0 +1,14 @@
+//Iniciar servidor websocket
+php artisan websockets:serve
+
+//Finalizar session de trading
+	//Iniciar tinker para ejecutar código PHP
+	php artisan tinker
+	//Código para finalizar sesión
+	event(new App\Events\EventsCopyBinary('session-ended'));
+
+//Evaluar licencias vencidas para generar comisiones (Se ejecuta automaticamente cada hora)
+php artisan licenses:evaluate
+
+//Ultimos resultados de trading
+php artisan trading-last-results 1 days --only-real

@@ -1,0 +1,31 @@
+# Use the PHP 7.3 runtime (BETA) by replacing "php72" below with "php73"
+runtime: php72
+
+handlers: 
+- url: /static
+  static_dir: public
+
+- url: /.*
+  secure: always
+  redirect_http_response_code: 301
+  script: auto
+
+env_variables:
+  ## Put production environment variables here.
+  APP_DEBUG: true
+  APP_KEY: base64:gb3sHBYesPYo1Sd89lwhDDW4g1TXA1T9nDPlYl0GrI0=
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  SESSION_DRIVER: database
+  CACHE_DRIVER: database
+  DB_CONNECTION: mysql
+  DB_HOST: localhost
+  DB_PORT: 3306
+  DB_DATABASE: trsoft
+  DB_USERNAME: root
+  DB_PASSWORD: $trsoft_2020
+  DB_SOCKET: "/cloudsql/trsoft-company:us-central1:trsoft"
+  ## To use Stackdriver logging in your Laravel application, copy
+  ## "app/Logging/CreateStackdriverLogger.php" and "config/logging.php"
+  ## into your Laravel application. Then uncomment the following line:
+  # LOG_CHANNEL: stackdriver
